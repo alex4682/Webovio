@@ -1,0 +1,30 @@
+.header {
+    background-image: url('../src/images/Bitmap.jpg');
+    background-size: 100vw auto;
+    background-repeat: no-repeat;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0 24px 0;
+}
+
+.header-menu {
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+@media screen and (min-width: 1200px) {
+  .header {
+    min-height: 811px;
+  }  
+}
