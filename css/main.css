@@ -111,13 +111,22 @@ body {
 .banner-link {
   font-size: 16px;
   font-weight: 700;
-  color: #FFD723;
+  color: #D4D6D4;
   display: flex;
   align-items: center;
 }
+.banner-link:hover {
+  text-decoration-line: underline;
+  color: #FFD723;
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+}
+.banner-link:hover .banner-svg {
+  fill: #FFD723;
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+}
 
 .banner-link > svg {
-  fill: #FFD723;
+  fill: #D4D6D4;
   margin-right: 10px;
 }
 
@@ -152,6 +161,7 @@ body {
   right: 80;
   padding-top: 25px;
   padding-bottom: 25px;
+  z-index: 3;
 }
 
 main {
@@ -161,4 +171,100 @@ main {
 .logos-list {
   display: flex;
   justify-content: space-evenly;
+}
+
+.features {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 117px;
+}
+
+.features-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  width: 475px;
+  margin-top: 130px;
+}
+
+.features-text {
+  color: rgba(77, 83, 60, 0.9);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.features-title {
+  color: #4D533C;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 127.778%;
+}
+
+.features-subtitle {
+  color: rgba(33, 56, 66, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 162.5%;
+}
+
+.features-link {
+  color: #D4D6D4;
+  font-size: 16px;
+  font-weight: 400;
+}
+.features-link:hover {
+  color: #FFD723;
+  text-decoration-line: underline;
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+}
+.features-link:hover .features-svg {
+  fill: #FFD723;
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+}
+
+.features-svg {
+  fill: #D4D6D4;
+}
+
+.features-rating {
+  width: 450px;
+  background: #FFF;
+  box-shadow: 0px 100px 100px 0px rgba(0, 0, 0, 0.15);
+  padding: 35px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 525px;
+}
+
+.rating-text {
+  color: #4D533C;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 166.667%;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+.rating-img {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 0;
+  bottom: -30;
+}
+
+.rating-name {
+  color: #4D533C;
+  font-size: 22px;
+  font-weight: 700;
+  margin-left: 75px;
+}
+
+.rating-subtitle {
+  color: #152934;
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 75px;
 }/*# sourceMappingURL=main.css.map */
