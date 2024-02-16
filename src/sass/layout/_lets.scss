@@ -1,0 +1,41 @@
+.lets {
+    position: absolute;
+    background: #fafafa;
+    box-shadow: 50px 130px 100px 0px rgba(0, 0, 0, 0.15);
+    width: 1275px;
+    height: 362px;
+    padding: 100px;
+    bottom: -200;
+    left: 0;
+}
+
+.lets-title {
+    color: #4D533C;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 123.333%;
+    width: 822px;
+}
+
+.lets-svg {
+    fill: #D4D6D4;
+}
+
+.lets-link {
+    font-size: 16px;
+    font-weight: 700;
+    color: #D4D6D4;
+    display: flex;
+    align-items: center;
+
+    &:hover {
+        text-decoration-line: underline;
+        color: #FFD723;
+        transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+    }
+
+    &:hover .lets-svg {
+        fill: #FFD723;
+        transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+    }
+}
