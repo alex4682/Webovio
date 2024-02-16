@@ -1,0 +1,148 @@
+.footer {
+    background-image: url(../src/images/footer-bg.png);
+    padding-top: 150px;
+}
+
+.footer-wrap {
+    border-bottom: 1px solid #5D6544;
+    margin: 100px;
+    margin-top: 150px;
+    padding-bottom: 60px;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: space-between;
+    width: 452px;
+}
+
+.footer-text {
+    color: #B6C197;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 250%;
+}
+
+.footer-link {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 250%;
+}
+
+.social-wrap {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-list {
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+    border-right: 1px solid #5D6544;
+    padding-right: 100px;
+}
+
+.social-list-tiyle {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 237.5%;
+    text-transform: uppercase;
+
+}
+
+.social-link {
+    color: #B6C197;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 250%;
+
+    &:hover {
+        color: #FFF;
+        transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+    }
+}
+
+.social-title {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 237.5%;
+    text-transform: uppercase;
+}
+
+.social-text {
+    color: #B6C197;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 162.5%;
+    width: 270px;
+}
+
+.social-link-2 {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 158.333%;
+
+    &:hover {
+        color: #e0e0e0;
+        transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+    }
+}
+
+.social-logo-list {
+    display: flex;
+    justify-content: space-evenly;
+    width: 171px;
+}
+
+.social-logo-item {
+    background: rgba(68, 74, 52, 1);
+    width: 35px;
+    height: 35px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+        background-color: rgba(255, 215, 35, 1);
+        transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+    }
+
+    &:hover .social-logo>use {
+        fill: #fff;
+        transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+    }
+}
+
+.social-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-logo use {
+    fill: rgba(94, 102, 72, 1);
+}
+
+.logo-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 100px 0 100px;
+    padding: 20px 0 25px 0;
+    border-top: 1px solid #5D6544;
+}
+
+.dot {
+    color: rgba(237, 185, 27, 1);
+}
+
+
+.footer-logo-text {
+    color: #B5C096;
+    font-size: 14px;
+    font-weight: 400;
+}
