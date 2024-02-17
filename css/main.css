@@ -302,7 +302,7 @@ body {
 .coment-div {
   background-color: #fff;
   position: absolute;
-  top: 320px;
+  top: 360px;
   left: 420px;
   border-radius: 7px;
   max-width: 453px;
@@ -325,6 +325,7 @@ body {
 
 .customer {
   display: flex;
+  padding: 0 30px 30px 30px;
 }
 
 .project-heading {
@@ -381,6 +382,23 @@ body {
 .project-svg {
   fill: #D4D6D4;
   margin-right: 10px;
+}
+
+.thumb {
+  height: 50px;
+  width: 46px;
+  margin-right: 15px;
+}
+
+.thumb > img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  -o-object-fit: none;
+     object-fit: none;
+  -o-object-position: -23px -15px;
+     object-position: -23px -15px;
 }
 
 @media screen and (min-width: 768px) {
