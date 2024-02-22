@@ -15,11 +15,25 @@
   </head>
   <body>
     <header class="header">
-      <div class="container">
+      <div class="header-wrap">
         <nav class="nav">
           <a href="#" class="logo"
             ><img src="images/logo.png" alt="logo" />Webovio.</a
           >
+          <ul class="header-list">
+            <li class="header-item">
+              <a href="#features" class="header-link">feature</a>
+            </li>
+            <li class="header-item">
+              <a href="#projects" class="header-link"> projects</a>
+            </li>
+            <li class="header-item">
+              <a href="#ideas" class="header-link">ideas</a>
+            </li>
+            <li class="header-item">
+              <a href="#footer" class="header-link">contacts</a>
+            </li>
+          </ul>
           <svg width="40" height="40" class="header-menu">
             <use
               href="images/sprite.svg#icon-menu"
@@ -85,7 +99,7 @@
       <section class="features">
         <div class="features-wrap">
           <p class="features-text">What we do for you</p>
-          <h2 class="features-title">
+          <h2 class="features-title" id="features">
             Strategy. Design Content. Technology Development
           </h2>
           <h3 class="features-subtitle">
@@ -116,8 +130,8 @@
         </div>
       </section>
       <section class="projects-section">
-        <div class="section-description container">
-          <h2>
+        <div class="section-description">
+          <h2 id="projects">
             We Have Some <br />
             Awesome Project.
           </h2>
@@ -284,7 +298,7 @@
         </ul>
       </section>
       <section class="deation">
-        <h2 class="deation-title">
+        <h2 class="deation-title" id="ideas">
           Deation & Evaluation - Best Way to Kick off Your Product Idea
         </h2>
         <ul class="deation-list">
@@ -358,7 +372,9 @@
         </ul>
       </section>
       <section class="lets">
-        <h2 class="lets-title">Let’s make something amazing together.</h2>
+        <h2 class="lets-title" id="footer">
+          Let’s make something amazing together.
+        </h2>
         <a href="#" class="lets-link"
           ><svg width="10px" height="16px" class="lets-svg">
             <use
