@@ -46,6 +46,8 @@ body {
   background-image: url("../src/images/Bitmap.jpg");
   background-size: 100vw 96%;
   background-repeat: no-repeat;
+  padding-right: 80px;
+  padding-left: 80px;
 }
 @media screen and (min-width: 768px) {
   .header .header-menu {
