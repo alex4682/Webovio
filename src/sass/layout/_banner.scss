@@ -1,6 +1,32 @@
 .banner {
     color: #fff;
     padding-bottom: 211px;
+
+    @media screen and (min-width: 768px) {
+        .banner-title {
+            font-size: 40px;
+            font-weight: 700;
+            padding-bottom: 45px;
+        }
+
+        .banner-description {
+            font-size: 16px;
+        }
+
+        .banner-subheading {
+            padding-top: 35px;
+        }
+
+        .banner-link {
+            font-size: 20px
+        }
+    }
+
+    @media screen and (min-width: 1200px) {
+        .banner-link {
+            font-size: 16px;
+        }
+    }
 }
 
 .banner-subheading {
@@ -11,18 +37,18 @@
 }
 
 .banner-title {
-    font-size: 25px;
+    font-size: 33px;
     font-weight: 700;
 }
 
 .banner-description {
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 400;
     padding-bottom: 25px;
 }
 
 .banner-link {
-    font-size: 16px;
+    font-size: 26px;
     font-weight: 700;
     color: #D4D6D4;
     display: flex;
@@ -43,30 +69,4 @@
 .banner-link>svg {
     fill: #D4D6D4;
     margin-right: 10px;
-}
-
-@media screen and (min-width: 768px) {
-    .banner-title {
-        font-size: 40px;
-        font-weight: 700;
-        padding-bottom: 45px;
-    }
-
-    .banner-description {
-        font-size: 16px;
-    }
-
-    .banner-subheading {
-        padding-top: 35px;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    .banner-title {
-        font-size: 60px;
-    }
-
-    .banner-subheading {
-        padding-top: 65px;
-    }
 }
