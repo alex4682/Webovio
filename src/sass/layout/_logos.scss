@@ -1,18 +1,23 @@
 .client-logos {
-    width: 90%;
-    border-radius: 5px;
-    background: #FFF;
-    box-shadow: 50px 50px 100px 0px rgba(0, 0, 0, 0.15);
-    position: absolute;
-    top: -50;
-    right: 80;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    z-index: 3;
+    display: none;
 
-}
+    @media screen and (min-width: 1200px) {
+        .logos-list {
+            display: flex;
+            justify-content: space-evenly;
+            width: 100%;
+        }
 
-.logos-list {
-    display: flex;
-    justify-content: space-evenly;
+        display: flex;
+        width: 90%;
+        border-radius: 5px;
+        background: #FFF;
+        box-shadow: 50px 50px 100px 0px rgba(0, 0, 0, 0.15);
+        position: absolute;
+        top: -50;
+        right: 80;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        z-index: 3;
+    }
 }
