@@ -2,14 +2,54 @@
     padding-bottom: 100px;
     display: flex;
     flex-direction: column;
+
+    @media screen and (min-width=768px) {
+        .deation-title {
+            color: #4D533C;
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 127.778%;
+            width: 600px;
+            margin-bottom: 50px;
+            align-self: center;
+            text-align: center;
+        }
+
+        .deation-list {
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+
+        .deation-item {
+            width: 190px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .deation-list-title {
+            color: #4D533C;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 141.667%;
+            text-transform: uppercase;
+        }
+
+        .deation-list-text {
+            color: rgba(33, 56, 66, 0.60);
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 185.714%;
+        }
+    }
 }
 
 .deation-title {
     color: #4D533C;
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 700;
     line-height: 127.778%;
-    width: 600px;
     margin-bottom: 50px;
     align-self: center;
     text-align: center;
@@ -18,10 +58,12 @@
 .deation-list {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 .deation-item {
-    width: 185px;
+    width: 75vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -29,7 +71,7 @@
 
 .deation-list-title {
     color: #4D533C;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 500;
     line-height: 141.667%;
     text-transform: uppercase;
@@ -37,7 +79,7 @@
 
 .deation-list-text {
     color: rgba(33, 56, 66, 0.60);
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 185.714%;
 }
